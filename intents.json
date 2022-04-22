@@ -1,0 +1,400 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+        {
+            "tag": "sr1",
+            "patterns": [
+              "burning micturition, bladder discomfort, foul smell of urine, continuous feel of urine"
+            ],
+            "responses": [
+              "You may be having urinary track infection"
+            ]
+        },
+        {
+            "tag" : "sr2",
+            "patterns":[
+              "skin rash, joint pain, skin peeling, silver like dusting, small dents in nails, inflammatory nails "
+            ],
+            "responses":[
+                "You may be having Psoriasis"
+            ]
+    
+        },
+        {
+          "tag":"sr3",
+          "patterns":[
+            "skin rash, high fever, blister, red sore around nose, yellow crust ooze"
+          ],
+          "responses":[
+            "You may be having Impetigo"
+          ]
+        },
+        {
+          "tag":"sr3",
+          "patterns":[
+            "itching, skin rash, nodal skin eruptions, dischromic patches"
+          ],
+          "responses":[
+            "You may be having Fungal infection"
+          ]
+        },
+        {
+          "tag":"sr4",
+          "patterns":[
+            "continuous sneezing, shivering, chills, watering from eyes"
+          ],
+          "responses":[
+            "You may be having Allergy"
+          ]
+        },
+        {
+          "tag":"sr5",
+          "patterns":[
+            "stomach pain, acidity, ulcers on tongue, vomiting, cough, chest_pain"
+          ],
+          "responses":[
+            "You may be having GERD"
+          ]
+        },
+        {
+          "tag":"sr6",
+          "patterns":[
+            "itching, vomiting, yellowish skin, nausea, loss of appetite, abdominal pain, yellowing of eyes"
+          ],
+          "responses":[
+            "You may be having Chronic cholestasis"
+          ]
+        },
+        {
+          "tag":"sr7",
+          "patterns":[
+            "itching, skin rash, stomach pain, burning micturition, spotting urination"
+          ],
+          "responses":[
+            "You may be having Drug Reaction"
+          ]
+        },
+        {
+          "tag":"sr8",
+          "patterns":[
+            "vomiting, loss of appetite, abdominal pain, passage of gases, internal itching, indigestion"
+          ],
+          "responses":[
+            "You may be having Peptic ulcer diseae"
+          ]
+        },
+        {
+          "tag":"sr9",
+          "patterns":[
+            "muscle wasting, patches in throat, high fever, extra marital contacts"
+          ],
+          "responses":[
+            "You may be having AIDS"
+          ]
+        },
+        {
+          "tag":"sr10",
+          "patterns":[
+            "fatigue, weight loss, restlessness, lethargy, irregular sugar level, blurred and distorted vision, obesity, excessive hunger, increased appetite, polyuria"
+          ],
+          "responses":[
+            "You may be having Diabetes"
+          ]
+        },
+        {
+          "tag":"sr11",
+          "patterns":[
+            "vomiting, sunken_eyes, dehydration, diarrhoea"
+          ],
+          "responses":[
+            "You may be having Gastroenteritis"
+          ]
+        },
+        {
+          "tag":"sr12",
+          "patterns":[
+            "fatigue, cough, high fever, breathlessness, family history, mucoid sputum"
+          ],
+          "responses":[
+            "You may be having Bronchial Asthma"
+          ]
+        },
+        {
+          "tag":"sr13",
+          "patterns":[
+            "headache, chest pain, dizziness, loss of balance, lack of concentration "
+          ],
+          "responses":[
+            "You may be having Hypertension"
+          ]
+        },
+        {
+          "tag":"sr14",
+          "patterns":[
+            "acidity, indigestion, headache, blurred and distorted vision, excessive hunger, stiff neck, depression, irritability, visual disturbances "
+          ],
+          "responses":[
+            "You may be having Migraine"
+          ]
+        },
+        {
+          "tag":"sr15",
+          "patterns":[
+            "back pain, weakness in limbs,neck pain, dizziness, loss of balance"
+          ],
+          "responses":[
+            "You may be having Cervical spondylosis"
+          ]
+        },
+        {
+          "tag":"sr16",
+          "patterns":[
+            "vomiting, headache, weakness of one body side, altered sensorium"
+          ],
+          "responses":[
+            "You may be having Paralysis (brain hemorrhage)"
+          ]
+        },
+        {
+          "tag":"sr17",
+          "patterns":[
+            "itching, vomiting, fatigue, weight loss, high fever, yellowish skin, dark urine, abdominal pain"
+          ],
+          "responses":[
+            "You may be having Jaundice"
+          ]
+        },
+        {
+          "tag":"sr18",
+          "patterns":[
+            "chills, vomiting, high fever, sweating, headache, nausea, muscle pain"
+          ],
+          "responses":[
+            "You may be having Malaria"
+          ]
+        },
+        {
+          "tag":"sr19",
+          "patterns":[
+            "itching, skin rash, fatigue, lethargy, high fever, headache, loss of appetite, mild fever, swelled lymph nodes, malaise, red spots over body"
+          ],
+          "responses":[
+            "You may be having Chicken pox"
+          ]
+        },
+        {
+          "tag":"sr20",
+          "patterns":[
+            "skin rash, chills, joint pain, vomiting, fatigue, high fever, headache, nausea, loss of appetite, pain behind the eyes, back pain, muscle pain, red spots over body"
+          ],
+          "responses":[
+            "You may be having Dengue"
+          ]
+        },
+        {
+          "tag":"sr21",
+          "patterns":[
+            "chills, vomiting, fatigue, high fever, nausea, constipation, abdominal pain, diarrhoea, toxic look, belly pain"
+          ],
+          "responses":[
+            "You may be having Typhoid"
+          ]
+        },
+        {
+          "tag":"sr22",
+          "patterns":[
+            "joint pain, vomiting, yellowish skin, dark urine, nausea, loss of appetite, abdominal pain, diarrhoea, mild fever, yellowing of eyes, muscle pain"
+          ],
+          "responses":[
+            "You may be having Hepatitis A"
+          ]
+        },
+        {
+          "tag":"sr23",
+          "patterns":[
+            "itching, fatigue, lethargy, yellowish skin, dark urine, loss of appetite, abdominal pain, yellow urine, yellowing of eyes, malaise, receiving blood transfusion, receiving unsterile injections"
+          ],
+          "responses":[
+            "You may be having Hepatitis B"
+          ]
+        },
+        {
+          "tag":"sr24",
+          "patterns":[
+            "fatigue, yellowish skin, nausea, loss of appetite, family history"
+          ],
+          "responses":[
+            "You may be having Hepatitis C"
+          ]
+        },
+        {
+          "tag":"sr25",
+          "patterns":[
+            "joint pain, vomiting, fatigue, yellowish skin, dark urine, nausea, loss of appetite, abdominal pain, yellowing of eyes"
+          ],
+          "responses":[
+            "You may be having Hepatitis D"
+          ]
+        },
+        {
+          "tag":"sr26",
+          "patterns":[
+            "joint pain, vomiting, fatigue, high fever, yellowish skin, dark urine, nausea, loss of appetite, abdominal pain, yellowing of eyes, coma, stomach bleeding"
+          ],
+          "responses":[
+            "You may be having Hepatitis E"
+          ]
+        },
+        {
+          "tag":"sr27",
+          "patterns":[
+            "vomiting, yellowish skin, abdominal pain, swelling of stomach, distention of abdomen, history of alcohol consumption, fluid overload"
+          ],
+          "responses":[
+            "You may be having Alcoholic hepatitis"
+          ]
+        },
+        {
+          "tag":"sr28",
+          "patterns":[
+            "chills, vomiting, fatigue, weight loss, cough, high fever, breathlessness, sweating, loss of appetite, mild fever, yellowing of eyes, swelled lymph nodes, malaise, phlegm, chest pain, blood in sputum"
+          ],
+          "responses":[
+            "You may be having Tuberculosis"
+          ]
+        },
+        {
+          "tag":"sr29",
+          "patterns":[
+            "continuous sneezing, chills, fatigue, cough, high fever, headache, swelled lymph nodes, malaise, phlegm, throat irritation, redness of eyes, sinus pressure, runny nose, congestion, chest pain, loss of smell, muscle pain"
+          ],
+          "responses":[
+            "You may be having Common Cold"
+          ]
+        },
+        {
+          "tag":"sr30",
+          "patterns":[
+            "chills, fatigue, cough, high fever, breathlessness, sweating, malaise, chest pain, fast heart rate, rusty sputum"
+          ],
+          "responses":[
+            "You may be having Pneumonia"
+          ]
+        },
+        {
+          "tag":"sr31",
+          "patterns":[
+            "constipation, pain during bowel movements, pain in anal region, bloody stool, irritation in anus"
+          ],
+          "responses":[
+            "You may be having Dimorphic hemmorhoids(piles)"
+          ]
+        },
+        {
+          "tag":"sr32",
+          "patterns":[
+            "vomiting, breathlessness, sweating, chest pain"
+          ],
+          "responses":[
+            "You may be having Heart attack"
+          ]
+        },
+        {
+          "tag":"sr33",
+          "patterns":[
+            "fatigue, cramps, bruising, obesity, swollen legs, swollen blood vessels, prominent veins on calf"
+          ],
+          "responses":[
+            "You may be having Varicose veins"
+          ]
+        },
+        {
+          "tag":"sr34",
+          "patterns":[
+            "fatigue, weight gain, cold hands and feets, mood swings, lethargy, dizziness, puffy face and eyes, enlarged thyroid, brittle nails, swollen extremeties, depression, irritability, abnormal menstruation"
+          ],
+          "responses":[
+            "You may be having Hypothyroidism"
+          ]
+        },
+        {
+          "tag":"sr35",
+          "patterns":[
+            "vomiting, fatigue, anxiety, sweating, headache, nausea, blurred and distorted vision, excessive hunger, slurred speech, irritability, palpitations"
+          ],
+          "responses":[
+            "You may be having Hypoglycemia"
+          ]
+        },
+        {
+          "tag":"sr36",
+          "patterns":[
+            "joint pain, neck pain, knee pain, hip joint pain, swelling joints, painful walking"
+          ],
+          "responses":[
+            "You may be having Osteoarthristis"
+          ]
+        },
+        {
+          "tag":"sr37",
+          "patterns":[
+            "muscle weakness, stiff neck, swelling joints, movement stiffness, painful walking"
+          ],
+          "responses":[
+            "You may be having Arthritis"
+          ]
+        },
+        {
+          "tag":"sr38",
+          "patterns":[
+            "vomiting, headache, nausea, spinning movements, loss of balance, unsteadiness"
+          ],
+          "responses":[
+            "You may be having (vertigo) Paroymsal  Positional Vertigo"
+          ]
+        },
+        {
+          "tag":"sr39",
+          "patterns":[
+            "skin rash, pus filled pimples, blackheads, scurring"
+          ],
+          "responses":[
+            "You may be having Acne"
+          ]
+        }
+    
+    
+        
+    ]
+    
+  }
